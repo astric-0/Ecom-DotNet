@@ -1,0 +1,10 @@
+.container {
+    background-image: url('/dev/images/backgrounds/homebg3.webp');
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

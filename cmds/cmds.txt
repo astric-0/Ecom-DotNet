@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold "Data Source=DESKTOP-3VDMESE;Initial Catalog=Ecom;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False" Microsoft.EntityFrameworkCore.SqlServer -o Model --force 
