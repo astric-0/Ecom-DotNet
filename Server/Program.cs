@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Configuration.AddJsonFile("usersecrets.json");
 
-builder.Services.Configure<CommonUtils.StripeOptions>(builder.Configuration.GetSection("Stripe"));
+builder.Services.Configure<StripeOptions>(builder.Configuration.GetSection("Stripe"));
 
 SiteEmailData emailData = new();
 builder.Configuration.GetSection("SiteEmailData").Bind(emailData);
